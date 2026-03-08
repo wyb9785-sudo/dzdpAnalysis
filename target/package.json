@@ -1,0 +1,30 @@
+{
+  "name": "frontend",
+  "version": "0.0.0",
+  "description": "大众点评数据分析可视化系统前端",
+  "main": "index.js",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "element-plus": "^2.11.1"
+  },
+  "scripts": {
+    "dev": "vite --port 8081 --host",
+    "build": "vite build",
+    "preview": "vite preview --port 8081"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.3.2",
+    "axios": "^1.11.0",
+    "echarts": "^5.6.0",
+    "echarts-wordcloud": "^2.1.0",
+    "element-plus": "^2.11.1",
+    "vue": "^3.5.18",
+    "vue-router": "^4.4.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.1",
+    "vite": "^7.0.6",
+    "vite-plugin-vue-devtools": "^8.0.0"
+  }
+}
